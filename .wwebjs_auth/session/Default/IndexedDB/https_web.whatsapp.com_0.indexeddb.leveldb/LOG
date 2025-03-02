@@ -1,0 +1,24 @@
+2025/03/02-10:13:08.936 2564 Reusing MANIFEST E:\Documents\GitHub\projects\Haunter\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/02-10:13:08.937 2564 Recovering log #36
+2025/03/02-10:13:09.501 2564 Reusing old log E:\Documents\GitHub\projects\Haunter\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000036.log 
+2025/03/02-10:13:09.502 2564 Delete type=2 #35
+2025/03/02-10:13:09.502 2564 Delete type=2 #37
+2025/03/02-10:13:11.770 3a08 Level-0 table #41: started
+2025/03/02-10:13:11.814 3a08 Level-0 table #41: 868051 bytes OK
+2025/03/02-10:13:11.816 3a08 Delete type=0 #36
+2025/03/02-10:13:11.817 3a08 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/02-10:13:11.818 3a08 Level-0 table #43: started
+2025/03/02-10:13:11.835 3a08 Level-0 table #43: 248 bytes OK
+2025/03/02-10:13:11.836 3a08 Delete type=0 #40
+2025/03/02-10:13:11.844 3a08 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 88824 : 0
+2025/03/02-10:13:11.844 3a08 Compacting 1@0 + 1@1 files
+2025/03/02-10:13:11.930 3a08 Generated table #44@0: 17647 keys, 415694 bytes
+2025/03/02-10:13:11.930 3a08 Compacted 1@0 + 1@1 files => 415694 bytes
+2025/03/02-10:13:11.931 3a08 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/02-10:13:11.931 3a08 Delete type=2 #43
+2025/03/02-10:13:11.931 3a08 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 88824 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/02-10:13:15.397 2564 Compacting 1@1 + 1@2 files
+2025/03/02-10:13:15.547 2564 Generated table #45@1: 18229 keys, 742151 bytes
+2025/03/02-10:13:15.547 2564 Compacted 1@1 + 1@2 files => 742151 bytes
+2025/03/02-10:13:15.548 2564 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/02-10:13:15.548 2564 Delete type=2 #41
