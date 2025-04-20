@@ -1,0 +1,558 @@
+{
+  "settings": {
+    "languages": [
+      "pt"
+    ],
+    "forceNER": true,
+    "autoSave": true,
+    "modelFilename": "E:\\Documents\\GitHub\\projects\\Haunter\\core\\memory\\model\\model.nlp",
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "pt"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "pt": {
+        "settings": {
+          "locale": "pt",
+          "trainByDomain": false,
+          "tag": "domain-manager-pt",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "ola": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "oi": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "eae": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "comig,fal": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "eae,mof": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "bem,irma,td": {
+            "intent": "tdbem",
+            "domain": "default"
+          },
+          "com,vai": {
+            "intent": "tdbem",
+            "domain": "default"
+          },
+          "dbo,ta": {
+            "intent": "tdbem",
+            "domain": "default"
+          },
+          "ssgd": {
+            "intent": "tdbem",
+            "domain": "default"
+          },
+          "tchau": {
+            "intent": "despedida",
+            "domain": "default"
+          },
+          "vlw": {
+            "intent": "despedida",
+            "domain": "default"
+          },
+          "mof,vlw": {
+            "intent": "despedida",
+            "domain": "default"
+          },
+          "ai,boa,noit": {
+            "intent": "despedida",
+            "domain": "default"
+          },
+          "boa,noit,tenh,uma,vlw": {
+            "intent": "despedida",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "saudacao": "default",
+          "tdbem": "default",
+          "despedida": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "olá",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "oi",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "eae",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala comigo",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "Eae mofi",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "td bem? irmao",
+            "intent": "tdbem"
+          },
+          {
+            "domain": "default",
+            "utterance": "como vai?",
+            "intent": "tdbem"
+          },
+          {
+            "domain": "default",
+            "utterance": "ta dboa?",
+            "intent": "tdbem"
+          },
+          {
+            "domain": "default",
+            "utterance": "ssgd?",
+            "intent": "tdbem"
+          },
+          {
+            "domain": "default",
+            "utterance": "tchau",
+            "intent": "despedida"
+          },
+          {
+            "domain": "default",
+            "utterance": "vlw",
+            "intent": "despedida"
+          },
+          {
+            "domain": "default",
+            "utterance": "vlw mofi",
+            "intent": "despedida"
+          },
+          {
+            "domain": "default",
+            "utterance": "boa noite ai",
+            "intent": "despedida"
+          },
+          {
+            "domain": "default",
+            "utterance": "vlw, tenha uma boa noite",
+            "intent": "despedida"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "pt",
+              "tag": "nlu-pt",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "ola": 1,
+              "oi": 1,
+              "eae": 1,
+              "fal": 1,
+              "comig": 1,
+              "mof": 1,
+              "td": 1,
+              "bem": 1,
+              "irma": 1,
+              "com": 1,
+              "vai": 1,
+              "ta": 1,
+              "dbo": 1,
+              "ssgd": 1,
+              "tchau": 1,
+              "vlw": 1,
+              "boa": 1,
+              "noit": 1,
+              "ai": 1,
+              "tenh": 1,
+              "uma": 1
+            },
+            "intents": {
+              "saudacao": 1,
+              "tdbem": 1,
+              "despedida": 1
+            },
+            "intentFeatures": {
+              "saudacao": {
+                "ola": 1,
+                "oi": 1,
+                "eae": 1,
+                "fal": 1,
+                "comig": 1,
+                "mof": 1
+              },
+              "tdbem": {
+                "td": 1,
+                "bem": 1,
+                "irma": 1,
+                "com": 1,
+                "vai": 1,
+                "ta": 1,
+                "dbo": 1,
+                "ssgd": 1
+              },
+              "despedida": {
+                "tchau": 1,
+                "vlw": 1,
+                "mof": 1,
+                "boa": 1,
+                "noit": 1,
+                "ai": 1,
+                "tenh": 1,
+                "uma": 1
+              }
+            },
+            "featuresToIntent": {
+              "ola": [
+                "saudacao"
+              ],
+              "oi": [
+                "saudacao"
+              ],
+              "eae": [
+                "saudacao"
+              ],
+              "fal": [
+                "saudacao"
+              ],
+              "comig": [
+                "saudacao"
+              ],
+              "mof": [
+                "saudacao",
+                "despedida"
+              ],
+              "td": [
+                "tdbem"
+              ],
+              "bem": [
+                "tdbem"
+              ],
+              "irma": [
+                "tdbem"
+              ],
+              "com": [
+                "tdbem"
+              ],
+              "vai": [
+                "tdbem"
+              ],
+              "ta": [
+                "tdbem"
+              ],
+              "dbo": [
+                "tdbem"
+              ],
+              "ssgd": [
+                "tdbem"
+              ],
+              "tchau": [
+                "despedida"
+              ],
+              "vlw": [
+                "despedida"
+              ],
+              "boa": [
+                "despedida"
+              ],
+              "noit": [
+                "despedida"
+              ],
+              "ai": [
+                "despedida"
+              ],
+              "tenh": [
+                "despedida"
+              ],
+              "uma": [
+                "despedida"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "pt",
+                "tag": "nlu-pt",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "ola",
+                "oi",
+                "eae",
+                "fal",
+                "comig",
+                "mof",
+                "td",
+                "bem",
+                "irma",
+                "com",
+                "vai",
+                "ta",
+                "dbo",
+                "ssgd",
+                "tchau",
+                "vlw",
+                "boa",
+                "noit",
+                "ai",
+                "tenh",
+                "uma"
+              ],
+              "intents": [
+                "saudacao",
+                "tdbem",
+                "despedida"
+              ],
+              "perceptrons": [
+                [
+                  9.309013366699219,
+                  9.30449390411377,
+                  9.288370132446289,
+                  4.68383264541626,
+                  4.68383264541626,
+                  0.12598691880702972,
+                  -1.638859748840332,
+                  -1.638859748840332,
+                  -1.638859748840332,
+                  -2.45798921585083,
+                  -2.45798921585083,
+                  -2.457890033721924,
+                  -2.457890033721924,
+                  -4.8438496589660645,
+                  -4.829422950744629,
+                  -5.069221019744873,
+                  -1.7188292741775513,
+                  -1.7188292741775513,
+                  -1.4687485694885254,
+                  -0.19055597484111786,
+                  -0.19055597484111786,
+                  4.908550202963785
+                ],
+                [
+                  -3.2558376789093018,
+                  -3.2477869987487793,
+                  -3.249101161956787,
+                  -1.6396137475967407,
+                  -1.6396137475967407,
+                  -1.3916888236999512,
+                  3.66853404045105,
+                  3.66853404045105,
+                  3.66853404045105,
+                  5.503323078155518,
+                  5.503323078155518,
+                  5.503359317779541,
+                  5.503359317779541,
+                  10.877979278564453,
+                  -3.270343780517578,
+                  -3.2792060375213623,
+                  -1.2933086156845093,
+                  -1.2933086156845093,
+                  -1.017937183380127,
+                  -0.20371192693710327,
+                  -0.20371192693710327,
+                  3.285456418970815
+                ],
+                [
+                  -3.257225275039673,
+                  -3.2469215393066406,
+                  -4.254208564758301,
+                  -1.6524792909622192,
+                  -1.6524792909622192,
+                  0.6765422821044922,
+                  -1.1031450033187866,
+                  -1.1031450033187866,
+                  -1.1031450033187866,
+                  -1.6517468690872192,
+                  -1.6517468690872192,
+                  -1.6512964963912964,
+                  -1.6512964963912964,
+                  -3.2184321880340576,
+                  10.899031639099121,
+                  10.488090515136719,
+                  2.790764093399048,
+                  2.790764093399048,
+                  5.312061309814453,
+                  -2.5228123664855957,
+                  -2.5228123664855957,
+                  3.322719769914385
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "pt",
+        "olá"
+      ],
+      [
+        "pt",
+        "oi"
+      ],
+      [
+        "pt",
+        "eae"
+      ],
+      [
+        "pt",
+        "fala comigo"
+      ],
+      [
+        "pt",
+        "Eae mofi"
+      ],
+      [
+        "pt",
+        "td bem? irmao"
+      ],
+      [
+        "pt",
+        "como vai?"
+      ],
+      [
+        "pt",
+        "ta dboa?"
+      ],
+      [
+        "pt",
+        "ssgd?"
+      ],
+      [
+        "pt",
+        "tchau"
+      ],
+      [
+        "pt",
+        "vlw"
+      ],
+      [
+        "pt",
+        "vlw mofi"
+      ],
+      [
+        "pt",
+        "boa noite ai"
+      ],
+      [
+        "pt",
+        "vlw, tenha uma boa noite"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "pt": {
+        "saudacao": [
+          {
+            "answer": "Fala"
+          },
+          {
+            "answer": "Eae mn, diz ai"
+          },
+          {
+            "answer": "Ham"
+          },
+          {
+            "answer": "eae"
+          },
+          {
+            "answer": "diga"
+          }
+        ],
+        "tdbem": [
+          {
+            "answer": "ss e contigo"
+          },
+          {
+            "answer": "bem dms"
+          },
+          {
+            "answer": "ssgd e tu?"
+          },
+          {
+            "answer": "ta indo legal"
+          }
+        ],
+        "despedida": [
+          {
+            "answer": "Vlw"
+          },
+          {
+            "answer": "Ate dps irmao"
+          },
+          {
+            "answer": "boa noite irmao"
+          },
+          {
+            "answer": "boa noite, ate dps"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
