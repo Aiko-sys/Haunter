@@ -1,24 +1,10 @@
-{
-    "saudacao": [
-      "olá",
-      "oi",
-      "eae",
-      "fala comigo",
-      "Eae mofi"
-    ],
-    "tdbem":[
-      "td bem? irmao",
-      "como vai?",
-      "ta dboa?",
-      "ssgd?"
 
-  ],
-    "despedida": [
-      "tchau",
-      "vlw",
-      "vlw mofi",
-      "boa noite ai",
-      "vlw, tenha uma boa noite"
-    ]
-  }
+{ 
+  "modo.desentender":["desentender"],
+  "saudacao.eae":["eae", "olá", "oi", "oi", "ei"],
+  "saudacao.comovai":["ssgd", "suave", "como vai", "td bem?", "tudo bem?"],
+  "despedida.noite":["boa noite", "dorme bem", "ate amanha", "fique bem ai"],
+  "despedida.tchau":["vlw irmao", "tchau, ate dps", "vlw ai mofi", "flw"]
+}
+
   

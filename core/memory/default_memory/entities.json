@@ -1,0 +1,16 @@
+[
+    {
+      "entity": "nome",
+      "type": "trim",
+      "options": {
+        "between": ["meu nome é", ""]
+      }
+    },
+    {
+      "entity": "cidade",
+      "type": "regex",
+      "options": {
+        "regex": "(?<=moro em\\s)([A-Za-zçÇãáéíóúâêôõÃÁÉÍÓÚÂÊÔÕ]+)"
+      }
+    }
+  ]

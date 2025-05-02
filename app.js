@@ -45,7 +45,7 @@ client.on('message', async msg =>{
         if(msg.body.toLowerCase().startsWith("haunter,") ){
             let user_msg = msg.body.slice(9).trim()
             const response = await brain.processText(manager, user_msg)
-
+            
             msg.reply(response)
         }
         else if(msg.body == cmd_list[0]){

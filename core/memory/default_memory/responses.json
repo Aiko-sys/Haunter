@@ -1,22 +1,8 @@
 {
-    "saudacao": [
-      "Fala",
-      "Eae mn, diz ai",
-      "Ham",
-      "eae",
-      "diga"
-    ],
-    "tdbem":[ 
-      "ss e contigo",
-      "bem dms",
-      "ssgd e tu?",
-      "ta indo legal"
-    ],
-    "despedida": [
-      "Vlw",
-      "Ate dps irmao",
-      "boa noite irmao",
-      "boa noite, ate dps"
-    ]
-  }
+  "modo.desentender":["an", "eoq", "n entendi", "como assim", "?", "que", "e oq", "An?", "macho eoq"],
+  "saudacao.eae":["eae", "eae mofi", "oi man", "eae btl"],
+  "saudacao.comovai":["ssgd?", "suave", "ssgd e tu", "to indo legal", "td bem e cntg", "td na paz"],
+  "despedida.noite":["boa noite tbm", "durma bem", "ate amanha mn", "fique bem ai"],
+  "despedida.tchau":["vlw irmao", "tchau, ate dps", "vlw ai mofi", "flw", "ate dps"]
+}
   
