@@ -1,3 +1,2 @@
-2025/05/02-14:18:41.804 35a0 Reusing MANIFEST E:\Documents\GitHub\projects\Haunter\.wwebjs_auth\session\Default\Service Worker\Database/MANIFEST-000001
-2025/05/02-14:18:41.804 35a0 Recovering log #3
-2025/05/02-14:18:41.805 35a0 Reusing old log E:\Documents\GitHub\projects\Haunter\.wwebjs_auth\session\Default\Service Worker\Database/000003.log 
+2025/06/18-19:23:13.408 21ae Creating DB /home/aiko/Documents/GitHub/Haunter/.wwebjs_auth/session/Default/Service Worker/Database since it was missing.
+2025/06/18-19:23:13.410 21ae Reusing MANIFEST /home/aiko/Documents/GitHub/Haunter/.wwebjs_auth/session/Default/Service Worker/Database/MANIFEST-000001

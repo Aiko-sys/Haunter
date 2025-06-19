@@ -5,7 +5,7 @@
     ],
     "forceNER": true,
     "autoSave": true,
-    "modelFilename": "E:\\Documents\\GitHub\\projects\\Haunter\\core\\memory\\model\\model.nlp",
+    "modelFilename": "/home/aiko/Documents/GitHub/Haunter/core/memory/model/model.nlp",
     "tag": "nlp",
     "threshold": 0.5,
     "autoLoad": true,
