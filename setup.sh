@@ -10,9 +10,8 @@ sudo apt install -y chromium-browser \
     libgdk-pixbuf2.0-0 libnspr4 libx11-xcb1 libxcomposite1 \
     libxdamage1 libxrandr2 xdg-utils libasound2 libgbm1
 
-cd ~/whatsapp-bot
 
-echo "Iunning npm install"
+echo "Running npm install"
 npm install
 
 echo "Setup completed! Now you can run the bot with: npm start or node index.js"
