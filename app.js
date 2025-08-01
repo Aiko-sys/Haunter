@@ -60,7 +60,7 @@ client.on('message', async msg =>{
         else if(msg.hasMedia){
             if(msg.body == cmd_list[3]){
                 create_sticker(msg, client)
-                console.log(`${string.bot_system_string} Sticker created`)
+                console.log(`${strings.bot_system_string} Sticker created`)
             }
         
         }
